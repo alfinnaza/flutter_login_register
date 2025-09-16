@@ -12,23 +12,23 @@
 
    ## 3. ANALISIS PROGRAM
 - main.dart
-    Tempat awal aplikasi dijalankan, sekaligus untuk menentukan halaman pertama yang muncul misalnya halaman login atau homepage
+    - Tempat awal aplikasi dijalankan, sekaligus untuk menentukan halaman pertama yang muncul misalnya halaman login atau homepage
     ![main.dart](image/main.jpg)
 
 - login_page.dart
-    Halaman ini berisi form login dengan input email dan password. Kalau datanya benar, pengguna masuk ke homepage. Kalau salah, akan muncul pesan gagal login
+   - Halaman ini berisi form login dengan input email dan password. Kalau datanya benar, pengguna masuk ke homepage. Kalau salah, akan muncul pesan gagal login
     ![login_page.dart](image/login.jpg)
 
 - register_page.dart
-   Halaman ini berisi form registrasi untuk memasukkan nama lengkap, email, dan password. Data akan disimpan sebagai user baru. Jika berhasil, akan muncul notifikasi sukses lalu diarahkan kembali ke halaman login
+   - Halaman ini berisi form registrasi untuk memasukkan nama lengkap, email, dan password. Data akan disimpan sebagai user baru. Jika berhasil, akan muncul notifikasi sukses lalu diarahkan kembali ke halaman login
     ![register_page.dart](image/register%20.jpg)
 
 - home_page.dart
-   Halaman utama ini muncul setelah login dengan akun terdaftar. Di dalamnya ada pesan selamat datang menggunakan nama pengguna, serta tombol logout untuk kembali ke halaman login
+   - Halaman utama ini muncul setelah login dengan akun terdaftar. Di dalamnya ada pesan selamat datang menggunakan nama pengguna, serta     tombol logout untuk kembali ke halaman login
     ![home_page.dart](image/home%20.jpg)
 
 - user_data.dart
-    Bagian ini digunakan untuk menyimpan data akun yang sudah diregistrasikan dengan memanfaatkan struktur data Map
+   - Bagian ini digunakan untuk menyimpan data akun yang sudah diregistrasikan dengan memanfaatkan struktur data Map
     ![user_data.dart](image/data.jpg)
 
    ## 4. OUTPUT PROGRAM
